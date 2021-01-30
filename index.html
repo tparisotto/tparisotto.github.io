@@ -21,7 +21,7 @@
 					<nav id="nav">
 						<a href="#" class="icon solid fa-home"><span>Home</span></a>
 						<a href="#about" class="icon solid fa-user"><span>About</span></a>
-						<a href="#contact" class="icon solid fa-envelope"><span>Contact</span></a>
+						<a href="#projects" class="icon solid fa-terminal"><span>Projects</span></a>
 						<a href="https://linkedin.com/in/tparisotto" class="icon brands fa-linkedin"><span>Linkedin</span></a>
 					</nav>
 
@@ -46,78 +46,52 @@
 									<h2>About me</h2>
 								</header>
 								<p>
-									Phasellus enim sapien, blandit ullamcorper elementum eu, condimentum eu elit.
-									Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
-									luctus elit eget interdum.
+									Graduated in Information Engineering in 2018 from the University of Padua (Italy)
+									and in Artificial Intelligence with a specialization in Computational Intelligence
+									and Robotics in 2021 from the University of Groningen (Netherlands), I am an engineer
+									with experience in a wide variety of subjects.
 								</p>
-								<section>
-									<div class="row">
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="images/pic01.jpg" alt=""></a>
-										</div>
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="images/pic02.jpg" alt=""></a>
-										</div>
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="images/pic03.jpg" alt=""></a>
-										</div>
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="images/pic04.jpg" alt=""></a>
-										</div>
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="images/pic05.jpg" alt=""></a>
-										</div>
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="images/pic06.jpg" alt=""></a>
-										</div>
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="images/pic07.jpg" alt=""></a>
-										</div>
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="images/pic08.jpg" alt=""></a>
-										</div>
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="images/pic09.jpg" alt=""></a>
-										</div>
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="images/pic10.jpg" alt=""></a>
-										</div>
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="images/pic11.jpg" alt=""></a>
-										</div>
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="images/pic12.jpg" alt=""></a>
-										</div>
-									</div>
-								</section>
+
 							</article>
 
-						<!-- Contact -->
-							<article id="contact" class="panel">
+						<!-- Projects -->
+							<article id="projects" class="panel">
 								<header>
-									<h2>Contact Me</h2>
+									<h2>Software</h2>
 								</header>
-								<form action="#" method="post">
-									<div>
-										<div class="row">
-											<div class="col-6 col-12-medium">
-												<input type="text" name="name" placeholder="Name" />
-											</div>
-											<div class="col-6 col-12-medium">
-												<input type="text" name="email" placeholder="Email" />
-											</div>
-											<div class="col-12">
-												<input type="text" name="subject" placeholder="Subject" />
-											</div>
-											<div class="col-12">
-												<textarea name="message" placeholder="Message" rows="6"></textarea>
-											</div>
-											<div class="col-12">
-												<input type="submit" value="Send Message" />
-											</div>
-										</div>
+									<p>
+										Both in the academical environment and for my personal growth I engaged myself in
+										numerous projects to make experience and learn. Here are a few examples:
+									</p>
+								<section>
+									<h3><a href="https://github.com/tparisotto/more_fyp">Simultaneous 3D Object Recognition and Pose Estimation System</a></h3>
+									<p>
+										The objective of the project is to infer the class and the pose of an object,
+										starting from its point cloud representation in the 3D space.
+										The approach is to use a Multi-View Convolutional Neural Network to identify
+										the object. While previous approaches used a fixed number of orthogonal projections
+										of the object to identify, we hypotesized a flexible amount of those point of views
+										would be decrease the computation time required, specially when the object's projections
+										carry a lot of redundant information.
+									</p>
+									<div class="col-4 col-6-medium col-12-small">
+										<a href="#" class="image fit"><img src="images/thesis_pic.png" alt=""></a>
 									</div>
-								</form>
+
+									<h3><a href="https://github.com/tparisotto/mlproj20_kmnist">Handwritten Hiragana Characters Recognition</a></h3>
+									<p>
+										To test a wide array of Machine Learning techniques we used the Kuzushiji-MNIST
+										dataset as a playground. KMNIST is a handwritten characters dataset similar to MNIST,
+										however the character in KMNIST are Japanese characters from the Hiragana alphabet.
+										The project consisted in the development, testing and evaluation of different Machine Learning
+										and Deep Learning techniques, starting from very simple algorithms to more complex
+										ensembles of classifiers and Neural Networks. A lot of focus was put on Data Augmentation
+										and Image Processing, and their impact on the models' performance.
+									</p>
+									<div class="col-4 col-6-medium col-12-small">
+										<a href="#" class="image fit"><img src="images/kmnist_examples.png" alt=""></a>
+									</div>
+								</section>
 							</article>
 
 					</div>
@@ -125,7 +99,7 @@
 				<!-- Footer -->
 					<div id="footer">
 						<ul class="copyright">
-							<li>Tommaso Parisotto.</li><li>Design by <a href="http://html5up.net">@ajlkn</a></li>
+							<li>Design by <a href="http://html5up.net">@ajlkn</a></li>
 						</ul>
 					</div>
 
