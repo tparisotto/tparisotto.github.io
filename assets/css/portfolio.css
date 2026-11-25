@@ -1,3 +1,27 @@
+@font-face {
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 300 900;
+  font-display: swap;
+  src: url("../fonts/figtree-latin.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Newsreader";
+  font-style: normal;
+  font-weight: 300 700;
+  font-display: swap;
+  src: url("../fonts/newsreader-latin.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Newsreader";
+  font-style: italic;
+  font-weight: 300 700;
+  font-display: swap;
+  src: url("../fonts/newsreader-italic-latin.woff2") format("woff2");
+}
+
 :root {
   color-scheme: light;
   --paper: #f3f2ec;
@@ -10,8 +34,8 @@
   --lime: #d5f17e;
   --mint: #c9ded1;
   --rust: #b95f42;
-  --serif: "Iowan Old Style", "Baskerville", "Palatino Linotype", "Book Antiqua", Georgia, serif;
-  --sans: "Avenir Next", Avenir, "Segoe UI", sans-serif;
+  --serif: "Newsreader", "Iowan Old Style", Georgia, serif;
+  --sans: "Figtree", "Avenir Next", "Segoe UI", sans-serif;
 }
 
 * {
@@ -224,7 +248,7 @@ h1,
 h2 {
   font-family: var(--serif);
   font-weight: 500;
-  letter-spacing: -0.055em;
+  letter-spacing: -0.025em;
 }
 
 .hero h1 {
@@ -588,7 +612,7 @@ h2 em {
   font-family: var(--serif);
   font-size: clamp(1.5rem, 2.4vw, 2.05rem);
   font-weight: 500;
-  letter-spacing: -0.035em;
+  letter-spacing: -0.015em;
   line-height: 1.14;
 }
 
@@ -805,7 +829,7 @@ h2 em {
   font-family: var(--serif);
   font-size: clamp(1.3rem, 2.4vw, 1.75rem);
   font-weight: 500;
-  letter-spacing: -0.025em;
+  letter-spacing: -0.01em;
 }
 
 .timeline-title > span {
